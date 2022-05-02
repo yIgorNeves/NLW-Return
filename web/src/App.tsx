@@ -1,5 +1,7 @@
 import { Widget } from "./components/Widget";
 
+
+
 interface ButtonProps{
   text?: string; //?: faz com que o elemento seja opcional
 }
