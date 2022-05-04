@@ -8,7 +8,7 @@ interface ButtonProps{
 //utilizar rem ao contrario de px para questoes de acessibilidade
 function Button(props: ButtonProps){
   return(
-    <button className="bg-violet-500 px-2 h-7 rounded text-violet-100 hover:bg-violet-800 transition-colors">{props.text ?? 'Default'}</button> //o texto apos ?? se torna o default caso o componente nao envie nada
+    <button className="bg-brand-500 px-2 h-7 rounded text-violet-100 hover:bg-violet-800 transition-colors">{props.text ?? 'Default'}</button> //o texto apos ?? se torna o default caso o componente nao envie nada
   )
 }
 
